@@ -3,12 +3,6 @@ import { useState } from "react";
 
 function Data(props) {
   const [isShown, setIsShown] = useState(false);
-  // function mouseover(e){
-  //   if(e.target.event===onMouseEnter){
-  //      return true;
-  //   }
-  //   setDetails(true)
-  // }
 
   function planeName(name) {
     if (name === "ST") {
@@ -49,7 +43,6 @@ function Data(props) {
 
         {isShown && (
           <div className="details">
-            {/* <img src={props.img} alt="img" /> */}
             <li className="name">{props.name}</li>
             <li>{planeName(props.alliance)}</li>
             <li>{props.phone}</li>
