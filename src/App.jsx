@@ -34,31 +34,31 @@ function App() {
 
   return (
     <div className="App">
-      <h1>airlines</h1>
+      <h1>Airlines</h1>
       <h4>filter by alliances</h4>
       <div className="checkbox">
         <input
-          type="radio"
+          type="checkbox"
           id="kraken"
-          name="monster"
+          className="monster"
           onClick={() => filterAlliance("ST")}
         />
         <label htmlFor="kraken">Sky Team</label>
         <br />
 
         <input
-          type="radio"
+          type="checkbox"
           id="sasquatch"
-          name="monster"
+          className="monster"
           onClick={() => filterAlliance("OW")}
         />
-        <label htmlFor="sasquatch">Oneworld</label>
+        <label htmlFor="sasquatch">One World</label>
         <br />
 
         <input
-          type="radio"
+          type="checkbox"
           id="mothman"
-          name="monster"
+          className="monster"
           onClick={() => filterAlliance("SA")}
         />
         <label htmlFor="mothman">Star Alliance</label>
