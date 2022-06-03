@@ -1,3 +1,3 @@
 # kayak react project
 
-Created with CodeSandbox
+be able to filter based on the airplane name, at the same time use API to get the data
